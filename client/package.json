@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@ionic/react": "^4.9.0-rc.2",
+    "@zeit/next-css": "^1.0.1",
     "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
