@@ -3,9 +3,7 @@ import App from "next/app";
 
 import { Layout } from "../components/Layout";
 
-import '@ionic/core/css/core.css';
-import '@ionic/core/css/ionic.bundle.css';
-
+import "bulma/css/bulma.min.css";
 
 export default class MyApp extends App {
     render() {
