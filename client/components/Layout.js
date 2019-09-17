@@ -1,13 +1,10 @@
+import Navbar from "./Navbar";
 
 
 export function Layout({ children }) {
     return (
-        <IonApp>
-            <IonSplitPane contentId="main">
-                <IonPage>
-                    {children}
-                </IonPage>
-            </IonSplitPane>
-        </IonApp>
+        <>
+            <Navbar></Navbar>
+        </>
     )
 }
