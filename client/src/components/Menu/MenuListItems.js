@@ -1,12 +1,13 @@
 import React from 'react';
 import { IonMenuToggle, IonItem, IonIcon, IonLabel } from '@ionic/react';
-import { calendar, contacts, map, informationCircle } from 'ionicons/icons';
+import { star, logoGameControllerB, tv, hammer, search } from 'ionicons/icons';
 
 const list = [
-  { title: 'Featured Apps', path: '/', icon: calendar },
-  { title: 'Games', path: '/speakers', icon: contacts },
-  { title: 'Entertainment', path: '/map', icon: map },
-  { title: 'Tools & Utilities', path: '/about', icon: informationCircle }
+  { title: 'Featured Apps', path: '/', icon: star },
+  { title: 'Games', path: '/games', icon: logoGameControllerB },
+  { title: 'Entertainment', path: '/entertainment', icon: tv },
+  { title: 'Tools & Utilities', path: '/tools', icon: hammer },
+  { title: 'Search', path: '/search', icon: search }
 ];
 
 export const MenuListItems = ({ history }) => {
