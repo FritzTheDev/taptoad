@@ -15,14 +15,16 @@ import '@ionic/react/css/ionic.bundle.css';
 function App() {
   return (
     <IonApp>
-      <IonContent>
-        <IonSplitPane contentId="main">
-          <IonMenu></IonMenu>
-          <IonPage id="main">
-            <Switch></Switch>
-          </IonPage>
-        </IonSplitPane>
-      </IonContent>
+      <IonReactRouter>
+        <IonContent>
+          <IonSplitPane contentId="main">
+            <IonMenu></IonMenu>
+            <IonPage id="main">
+              <Switch></Switch>
+            </IonPage>
+          </IonSplitPane>
+        </IonContent>
+      </IonReactRouter>
     </IonApp>
   );
 }
