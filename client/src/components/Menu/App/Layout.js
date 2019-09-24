@@ -9,6 +9,8 @@ import {
 } from '@ionic/react';
 import { Switch } from 'react-router-dom';
 
+import { Menu } from '../../Menu';
+
 export const Layout = () => (
   <>
     <IonHeader>
