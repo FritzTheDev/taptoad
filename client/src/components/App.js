@@ -11,9 +11,10 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { Switch } from 'react-router-dom';
 
+import { Menu } from './Menu';
+
 import '@ionic/core/css/core.css';
 import '@ionic/react/css/ionic.bundle.css';
-import { Menu } from './Menu';
 
 function App() {
   return (
