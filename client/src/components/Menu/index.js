@@ -9,6 +9,8 @@ import {
   IonList
 } from '@ionic/react';
 
+import { MenuListItems } from './MenuListItems';
+
 export const Menu = () => {
   return (
     <IonMenu contentId="main">
@@ -19,7 +21,7 @@ export const Menu = () => {
       </IonHeader>
       <IonContent>
         <IonList>
-          <ListItems />
+          <MenuListItems />
         </IonList>
       </IonContent>
     </IonMenu>
