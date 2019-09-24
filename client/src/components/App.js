@@ -20,8 +20,8 @@ function App() {
     <IonApp>
       <IonReactRouter>
         <IonHeader>
-          <IonToolbar>
-            <IonTitle></IonTitle>
+          <IonToolbar color="primary">
+            <IonTitle>Add.App</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent>
