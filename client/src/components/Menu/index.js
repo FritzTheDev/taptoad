@@ -5,16 +5,22 @@ import {
   IonMenu,
   IonHeader,
   IonToolbar,
-  IonTitle
+  IonTitle,
+  IonList,
+  IonListHeader
 } from '@ionic/react';
 
-export const Menu = () => (
-  <IonMenu contentId="main">
-    <IonHeader>
-      <IonToolbar>
-        <IonTitle>Menu</IonTitle>
-      </IonToolbar>
-    </IonHeader>
-    <IonContent></IonContent>
-  </IonMenu>
-);
+export const Menu = () => {
+  return (
+    <IonMenu contentId="main">
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Menu</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent>
+        <IonList>{}</IonList>
+      </IonContent>
+    </IonMenu>
+  );
+};
