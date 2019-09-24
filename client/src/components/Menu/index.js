@@ -9,11 +9,12 @@ import {
 } from '@ionic/react';
 
 export const Menu = () => (
-  <IonMenu content="main">
+  <IonMenu contentId="main">
     <IonHeader>
       <IonToolbar>
         <IonTitle>Menu</IonTitle>
       </IonToolbar>
     </IonHeader>
+    <IonContent></IonContent>
   </IonMenu>
 );
