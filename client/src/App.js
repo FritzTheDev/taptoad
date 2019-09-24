@@ -6,6 +6,7 @@ import {
   IonMenu,
   IonPage
 } from '@ionic/react';
+import { IonReactRouter } from '@ionic/react-router';
 import { Switch } from 'react-router-dom';
 
 import '@ionic/core/css/core.css';
