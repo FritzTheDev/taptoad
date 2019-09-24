@@ -6,8 +6,7 @@ import {
   IonHeader,
   IonToolbar,
   IonTitle,
-  IonList,
-  IonListHeader
+  IonList
 } from '@ionic/react';
 
 export const Menu = () => {
@@ -19,7 +18,9 @@ export const Menu = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonList>{}</IonList>
+        <IonList>
+          <ListItems />
+        </IonList>
       </IonContent>
     </IonMenu>
   );
