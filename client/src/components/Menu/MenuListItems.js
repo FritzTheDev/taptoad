@@ -2,12 +2,14 @@ import React from 'react';
 import { IonMenuToggle, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { star, logoGameControllerB, tv, hammer, search } from 'ionicons/icons';
 
+import { routes } from '../../constants/routes';
+
 const list = [
-  { title: 'Featured Apps', path: '/', icon: star },
-  { title: 'Games', path: '/games', icon: logoGameControllerB },
-  { title: 'Entertainment', path: '/entertainment', icon: tv },
-  { title: 'Tools & Utilities', path: '/tools', icon: hammer },
-  { title: 'Search', path: '/search', icon: search }
+  { title: 'Featured Apps', path: routes.index, icon: star },
+  { title: 'Games', path: routes.games, icon: logoGameControllerB },
+  { title: 'Entertainment', path: routes.entertainment, icon: tv },
+  { title: 'Tools & Utilities', path: routes.tools, icon: hammer },
+  { title: 'Search', path: routes.search, icon: search }
 ];
 
 export const MenuListItems = ({ history }) => {
