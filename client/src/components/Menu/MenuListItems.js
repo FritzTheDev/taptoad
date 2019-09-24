@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import { IonMenuToggle, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { star, logoGameControllerB, tv, hammer, search } from 'ionicons/icons';
 
@@ -12,7 +13,8 @@ const list = [
   { title: 'Search', path: routes.search, icon: search }
 ];
 
-export const MenuListItems = ({ history }) => {
+const BaseMenuListItems = ({ history }) => {
+  console.log(history);
   return list
     .filter(route => !!route.path)
     .map(p => (
@@ -24,3 +26,5 @@ export const MenuListItems = ({ history }) => {
       </IonMenuToggle>
     ));
 };
+
+export const MenuListItems = withRouter(BaseMenuListItems);
