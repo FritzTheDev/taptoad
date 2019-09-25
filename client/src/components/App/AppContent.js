@@ -5,14 +5,12 @@ import { Switch } from 'react-router-dom';
 import { Menu } from '../Menu';
 
 export const AppContent = () => (
-  <>
-    <IonContent>
-      <IonSplitPane contentId="main">
-        <Menu />
-        <IonPage id="main">
-          <Switch></Switch>
-        </IonPage>
-      </IonSplitPane>
-    </IonContent>
-  </>
+  <IonContent>
+    <IonSplitPane contentId="main">
+      <Menu />
+      <IonPage id="main">
+        <Switch></Switch>
+      </IonPage>
+    </IonSplitPane>
+  </IonContent>
 );

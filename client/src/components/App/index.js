@@ -1,16 +1,9 @@
 import React from 'react';
-import {
-  IonApp,
-  IonContent,
-  IonSplitPane,
-  IonPage,
-  IonHeader,
-  IonToolbar,
-  IonTitle
-} from '@ionic/react';
+import { IonApp } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 
-import { Menu } from '../Menu';
+import { AppContent } from './AppContent';
+import { AppHeader } from './AppHeader';
 
 import '@ionic/core/css/core.css';
 import '@ionic/react/css/ionic.bundle.css';
@@ -18,7 +11,10 @@ import '@ionic/react/css/ionic.bundle.css';
 function App() {
   return (
     <IonApp>
-      <IonReactRouter></IonReactRouter>
+      <IonReactRouter>
+        <AppHeader />
+        <AppContent />
+      </IonReactRouter>
     </IonApp>
   );
 }
