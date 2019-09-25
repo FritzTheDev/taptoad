@@ -9,7 +9,6 @@ import {
   IonTitle
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Switch } from 'react-router-dom';
 
 import { Menu } from '../Menu';
 
@@ -19,21 +18,7 @@ import '@ionic/react/css/ionic.bundle.css';
 function App() {
   return (
     <IonApp>
-      <IonReactRouter>
-        <IonHeader>
-          <IonToolbar color="primary">
-            <IonTitle>Add.App</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonContent>
-          <IonSplitPane contentId="main">
-            <Menu />
-            <IonPage id="main">
-              <Switch></Switch>
-            </IonPage>
-          </IonSplitPane>
-        </IonContent>
-      </IonReactRouter>
+      <IonReactRouter></IonReactRouter>
     </IonApp>
   );
 }
