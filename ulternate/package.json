@@ -1,0 +1,11 @@
+{
+  "name": "ulternate",
+  "version": "0.1.0",
+  "description": "App Store for PWAs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederick \\\"Rapdash\\\" Johnson",
+  "license": "ISC"
+}
