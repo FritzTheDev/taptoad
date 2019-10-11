@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/59DAYSOFCODE/59dockc-beyondnative/issues"
   },
-  "homepage": "https://github.com/59DAYSOFCODE/59dockc-beyondnative#readme"
+  "homepage": "https://github.com/59DAYSOFCODE/59dockc-beyondnative#readme",
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
 }
