@@ -18,6 +18,25 @@
     "url": "https://github.com/59DAYSOFCODE/59dockc-beyondnative/issues"
   },
   "homepage": "https://github.com/59DAYSOFCODE/59dockc-beyondnative#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "pages/**/*.js": [
+      "prettier --write",
+      "git add"
+    ],
+    "components/**/*.js": [
+      "prettier --write",
+      "git add"
+    ],
+    "styles/**/*.css": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "next": "^9.1.1",
