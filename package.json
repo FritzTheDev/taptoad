@@ -21,5 +21,10 @@
     "next": "^9.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.1.2"
   }
 }
