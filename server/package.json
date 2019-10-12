@@ -8,6 +8,7 @@
   },
   "author": "Frederick \"Fritz\" Johnson",
   "license": "ISC",
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -25,5 +26,16 @@
     "@types/node": "^12.7.12",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript": "^3.6.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "prettier --single-quote",
+      "git add"
+    ]
   }
 }
