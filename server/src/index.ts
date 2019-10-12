@@ -53,7 +53,7 @@ import express from 'express';
  * ----------------------------------------------------------------------------
  * By the way, don't worry about what these functions we're importing
  * actually DO; We'll get to that when we use them. For now, just focus on how
- * we're pulling things in from other files.
+ * we're going about pulling functions in from other files.
  */
 import { createConnection } from 'typeorm';
 
@@ -71,8 +71,8 @@ import { createConnection } from 'typeorm';
 import { config as dotenvConfig } from 'dotenv';
 
 /*
- *
- *
+ * Okay. Let's finally get to "Real Programming", and make some stuff happen.
+ * This dotenvConfig function that we imported above
  *
  */
 dotenvConfig();
