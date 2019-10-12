@@ -1,7 +1,8 @@
 /*
- * index.ts
+ * File Path:
+ * src/index.ts
  *
- * Notes:
+ * File Notes:
  * This file is where a lot of the magic happens. I create, configure,
  * and start the server here. I also create the database connection pool with
  * TypeORM's createConnection function.
