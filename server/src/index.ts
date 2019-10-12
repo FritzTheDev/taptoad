@@ -49,8 +49,16 @@ import express from 'express';
  */
 import { createConnection } from 'typeorm';
 
-/* Yet another import statement. In this one, I've used the "as" keyword to
- * rename the default
+/*
+ * Yet another import statement. In this one, I've used the "as" keyword to
+ * override the name the author of the package chose when they created the
+ * package. There are a few reasons you might do this. Variable name overlaps,
+ * for instance.
+ * ----------------------------------------------------------------------------
+ * In this case it's because their name, "config", isn't very specific, and
+ * seeing as this file will have a lot of configuration going on, I want to be
+ * as explicit as possible. It will save me & others from inevitably having to
+ * see *which* configuration "config" represents.
  */
 import { config as dotenvConfig } from 'dotenv';
 
