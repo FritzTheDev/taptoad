@@ -4,7 +4,7 @@
   "description": "Server for TapToad",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "dev": "ts-node-dev src/index.ts"
   },
   "author": "Frederick \"Fritz\" Johnson",
   "license": "ISC",
