@@ -68,7 +68,6 @@ import { createConnection } from 'typeorm';
  * seeing as this file will have a lot of configuration going on, I want to be
  * as explicit as possible. It will save me & others from inevitably having to
  * see *which* configuration "config" represents.
- *
  */
 import { config as dotenvConfig } from 'dotenv';
 
