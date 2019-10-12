@@ -9,6 +9,7 @@
   "author": "Frederick \"Fritz\" Johnson",
   "license": "ISC",
   "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
