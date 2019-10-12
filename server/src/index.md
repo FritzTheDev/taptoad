@@ -1,5 +1,11 @@
+## Your Type-ical Server: Jumping into Node.js and Typescript together.
+#### Difficulty: Intermediate
+### Intro
+This is a project that'll simultanously introduce you to the node.js runtime
+by teaching you to build a simple server, as well as taking a few steps into
+using typescript's type checking, decorators, and more.
 
-
+### Import Statements
 ```javascript
 import express from 'express';
 ```
@@ -15,7 +21,7 @@ MDN Import Statement Documentation:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 
-
+#### Tip:
     You might see something more like const express = require('express') as
     you work with node. That's the old way to import packages in node, and
     still the only way (for now!) if you're not using a transpiler like
@@ -25,3 +31,4 @@ For more info on JS packages, read up on what the Node Package Manager (NPM)
 is & does. This article covers the basics, but there's a lot to learn.
 Wikipedia article on NPM
 https://en.wikipedia.org/wiki/Npm_(software)
+
