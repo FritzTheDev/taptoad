@@ -3,14 +3,20 @@
  * src/index.ts
  *
  * File Notes:
- * This file is where a lot of the magic happens. I create, configure,
- * and start the server here. I also create the database connection pool with
- * TypeORM's createConnection function.
+ * The index file is where a lot of the magic happens for our server. I create,
+ * configure, and start the server here. I also create the database connection
+ * pool with TypeORM's createConnection function.
  * ----------------------------------------------------------------------------
  * I use express for my server framework here because it's popular & there are
  * jobs for it, so don't get the wrong idea, this framework is dated & middling
- * at best. It doubles as my silent revenge on code-hipsters everywhere.
+ * at best. Using it doubles as my silent revenge on bleeding-edge
+ * code-hipsters everywhere, though, so that's a plus. 😂
  * ----------------------------------------------------------------------------
+ * If popularity and employment opportunities aren't a concern, consider
+ * something like Koa (Created by the same people as express) or Nest.js (A
+ * Typescript-first abstraction layer over express). I highly recommend both.
+ * Koa: https://koajs.com/
+ * NestJS: https://nestjs.com/
  */
 
 /*
