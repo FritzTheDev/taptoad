@@ -10,4 +10,5 @@ dotenvConfig();
 // Creates the express "App" so that I can do things with it.
 const app = express();
 
+// Starts the server once everything's configured
 app.listen(process.env.PORT);
