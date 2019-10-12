@@ -14,7 +14,7 @@
  * ----------------------------------------------------------------------------
  * If popularity and employment opportunities aren't a concern, consider
  * something like Koa (Created by the same people as express) or Nest.js (A
- * Typescript-first abstraction layer over express). I highly recommend both.
+ * Typescript-first abstraction layer over Express). I highly recommend both.
  * Koa: https://koajs.com/
  * NestJS: https://nestjs.com/
  */
@@ -39,7 +39,6 @@
  * For more info on JS packages, read up on what NPM is & does. This article
  * covers the basics, but there's a lot to learn.
  * https://en.wikipedia.org/wiki/Npm_(software)
- *
  */
 import express from 'express';
 
@@ -71,7 +70,11 @@ import { createConnection } from 'typeorm';
  */
 import { config as dotenvConfig } from 'dotenv';
 
-// Adds Environment Vars from the .env shell file
+/*
+ *
+ *
+ *
+ */
 dotenvConfig();
 
 // Creates the express "App" so that I can do things with it.
