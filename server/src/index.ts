@@ -13,18 +13,18 @@
  */
 
 /*
-* This is an ES6 "import" statement. It can pull functions, classes, and even
-* data from another file. This one is importing the express "package"
-* in it's entirety. (Note the lack of curly brackets)
-
-* You might see something more like const express = require('express') as
-* you work with node. That's the old way to import packages in node, and still
-* the only way if you're not using a transpiler like typescript or babel.
-
-* For more info on JS packages, read up on what NPM. This article covers the
-* basics, but there's a lot to learn.
-*  https://en.wikipedia.org/wiki/Npm_(software)
-*/
+ * This is an ES6 "import" statement. It can pull functions, classes, and even
+ * data from another file. This one is importing the express "package"
+ * in it's entirety. (Note the lack of curly brackets)
+ *
+ * You might see something more like const express = require('express') as
+ * you work with node. That's the old way to import packages in node, and still
+ * the only way if you're not using a transpiler like typescript or babel.
+ *
+ * For more info on JS packages, read up on what NPM. This article covers the
+ * basics, but there's a lot to learn.
+ *  https://en.wikipedia.org/wiki/Npm_(software)
+ */
 import express from 'express';
 
 // This is another import statement, except this one imports a specific part of
