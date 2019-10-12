@@ -28,6 +28,7 @@
  * lack of curly brackets). For more info on import statements in ES6, read
  * this Mozilla Developer Network (MDN) page about them. Don't worry if you
  * don't understand everything yet, it's a lot to take in.
+ * MDN Import Statement Documentation:
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
  * ----------------------------------------------------------------------------
  * You might see something more like const express = require('express') as
@@ -38,6 +39,7 @@
  * For more info on JS packages, read up on what NPM is & does. This article
  * covers the basics, but there's a lot to learn.
  * https://en.wikipedia.org/wiki/Npm_(software)
+ *
  */
 import express from 'express';
 
@@ -50,8 +52,9 @@ import express from 'express';
  * In this case, I'm importing a function, but it could just as easily be a
  * class or a plain object that was exported from the package.
  * ----------------------------------------------------------------------------
- * This function creates a "connection pool" for the mongo database I'm using.
- * I'll dig into that a bit more when I actually use the function.
+ * By the way, don't worry about what these functions we're importing
+ * actually DO; We'll get to that when we use them. For now, just focus on how
+ * we're pulling things in from other files.
  */
 import { createConnection } from 'typeorm';
 
@@ -65,6 +68,8 @@ import { createConnection } from 'typeorm';
  * seeing as this file will have a lot of configuration going on, I want to be
  * as explicit as possible. It will save me & others from inevitably having to
  * see *which* configuration "config" represents.
+ * ----------------------------------------------------------------------------
+ *
  */
 import { config as dotenvConfig } from 'dotenv';
 
